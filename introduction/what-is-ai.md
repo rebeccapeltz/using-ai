@@ -31,6 +31,14 @@ Artificial Intelligence is a term that covers many disciplines.  Everthing from 
 While we'll be focusing on creating prompts for artificial intelligence that uses Generative AI and Natural Language Processing, it helps to see how these disciplines fit under the broader field of Data Science.
 
 ```mermaid
+flowchart TB
+    A --> C
+    A --> D
+    B --> C
+    B --> D
+```
+
+```mermaid
 mindmap
   root((Data Science))
     Machine Learning
