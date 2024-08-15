@@ -47,11 +47,12 @@ mindmap
           Natural Language Processing
 ```
 
-```mermaid
-mindmap
-  root((Data Science))
+<pre class="language-mermaid"><code class="lang-mermaid"><strong>```mermaid
+</strong><strong>mindmap
+</strong>  root((Data Science))
     Machine Learning
       Neural Networks
         Generative AI
           Natural Language Processing
 ```
+</code></pre>
