@@ -62,31 +62,15 @@ NLM is an AI that enables machines to interpret and manipulate human language.
 
 ### Generative AI Models
 
-This course focuses on GAI and NLP.  We'll see many versions of the models created for this type of AI.  The next section will examine how Neural Networks are used to create models. Models are computer programs that process data and find patterns.  These patterns enable the program to make predictions.  GAI models combined with NLM models provide all of the elements described above for turning information into knowledge: data -> collation -> communication. &#x20;
-
-```mermaid
-flowchart TB
-    A --> C
-    A --> D
-    B --> C
-    B --> D
-```
+This course focuses on GAI and NLP.  We'll see many versions of the models created for this type of AI.  The next section will examine how Neural Networks are used to create models. Models are computer programs that process data and find patterns.  These patterns enable the program to make predictions.  GAI models combined with NLM models provide all of the elements described in the **Information vs Knowledge** section above: data -> collation -> communication. &#x20;
 
 ```mermaid
 mindmap
   root((Data Science))
-    Machine Learning
-      Neural Networks
-        Generative AI
-          Natural Language Processing
+    Artificial Intelligence
+      Machine Learning
+        Deep Learning
+          Neural Networks
+            Generative AI
+            Natural Language Processing
 ```
-
-<pre class="language-mermaid"><code class="lang-mermaid"><strong>```mermaid
-</strong><strong>mindmap
-</strong>  root((Data Science))
-    Machine Learning
-      Neural Networks
-        Generative AI
-          Natural Language Processing
-```
-</code></pre>
