@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
   * [What is AI?](introduction/what-is-ai.md)
-  * [Creating GAI/LLM Models with Neural Networks](introduction/creating-gai-llm-models-with-neural-networks.md)
+  * [Generative AI using LLM Models](introduction/generative-ai-using-llm-models.md)
   * [Interacting with AI and Prompt Engineering](introduction/interacting-with-ai-and-prompt-engineering.md)
   * [Using Edublogs to Share Work](introduction/using-edublogs-to-share-work.md)
 * [Using AI to Solve Problems at Home](using-ai-to-solve-problems-at-home.md)
