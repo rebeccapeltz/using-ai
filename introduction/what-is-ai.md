@@ -54,7 +54,7 @@ NN is an ML process in AI that teaches computers to process data similarly to ho
 
 #### Generative AI (GAI)
 
-GAI is a type of AI that can generate content in the form of text, images, code, poetry, music, etc in response to a prompt describing the content.
+GAI is a type of AI that can generate content in the form of text, images, code, poetry, music, etc, in response to a prompt describing the content.  It uses NLP to process input and output.
 
 #### Natural Language Processing (NLP)
 
