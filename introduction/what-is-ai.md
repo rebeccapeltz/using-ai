@@ -8,7 +8,7 @@ Before diving into the mechanics of Artificial Intelligence, think about what in
 
 In this course, a lot of what you learn about artificial intelligence is how to ask a better question and not stop at just one question.  The master and martyr for asking questions to better understand the world and its people is Socrates, who lived in Athens, Greece, 470-399 BC.   In modern education, we encourage self-reflection and critical thinking.  These are activities that involve asking questions.  As you develop your skills at eliciting information from artificial intelligence applications, you honor a long Western tradition known as the Socratic method. &#x20;
 
-Artificial Intelligence (AI) is created by "reading" massive amounts of content curated from many resources.  AI is also trained, using pattern recognition, to parse the language you submit to it and collate a response in natural language.   The image below demonstrates how information is turned into knowledge.  It requires ingesting many sources, finding what connects them, and then communicating them in an understandable way.
+Artificial Intelligence (AI) is created by "reading" massive amounts of content curated from many resources.  AI is also trained, using pattern recognition, to parse the language you submit to it and collate a response in natural language.   The image below demonstrates how information is turned into knowledge.  It requires ingesting many sources, finding what connects them, and then communicating the result.&#x20;
 
 <figure><img src="../.gitbook/assets/info-vs-knowledge.png" alt=""><figcaption><p>Creating knowledge from information</p></figcaption></figure>
 
@@ -24,11 +24,45 @@ Whether you agree that tomatoes belong in fruit salads or not, experience is the
 
 ### Terminology
 
-Artificial Intelligence is a term that covers many disciplines.  Everthing from self driving cars to movie recommendations use artificial intelligence.  In this course, we'll be focusing on Generative AI.  The image below shows the heirarchical relationship between disciplines under data science.   Notice that Natural Language Processing is a subset of Generative AI and that Generative AI is a subset of Neural Networks.
+Artificial Intelligence is a term that covers many disciplines. Every form of AI, from self-driving cars to movie recommendations, uses artificial intelligence. In this course, we'll focus on Generative AI. The image below shows the hierarchical relationship between disciplines under data science. Notice that Natural Language Processing is a subset of Generative AI and that Generative AI is a subset of Neural Networks.
 
-<figure><img src="../.gitbook/assets/data-science-nn-genai.png" alt=""><figcaption><p>Heirarchy of disciplines under data science</p></figcaption></figure>
+
+
+<figure><img src="../.gitbook/assets/ds-heirarchy (1).png" alt="" width="563"><figcaption><p>Heirarchy of disciplines leading to Gen AI and LLM</p></figcaption></figure>
 
 While we'll be focusing on creating prompts for artificial intelligence that uses Generative AI and Natural Language Processing, it helps to see how these disciplines fit under the broader field of Data Science.
+
+#### Data Science
+
+Data science is the umbrella term covering several disciplines, including business intelligence (BI), machine learning (ML), artificial intelligence (AI), predictive statistics, and programming involving large amounts of data.
+
+#### Artificial Intelligence (AI)
+
+AI is a broad field covering disciplines that mimic human intelligence.
+
+#### Machine Learning (ML)
+
+ML is an AI subset. In ML, machines learn through algorithmic training using data sets targeted to the learning subject.  These can be very large data sets targeted at learning vast amounts of information.
+
+#### Deep Learning (DL)
+
+DL is a method of enabling computer learning based a multiple levels of data processing.  It it based on Neural Networks.
+
+#### Neural Networks (NN)
+
+NN is an ML process in AI that teaches computers to process data similarly to how humans process data at a neurological level.
+
+#### Generative AI (GAI)
+
+GAI is a type of AI that can generate content in the form of text, images, code, poetry, music, etc in response to a prompt describing the content.
+
+#### Natural Language Processing (NLP)
+
+NLM is an AI that enables machines to interpret and manipulate human language.
+
+### Generative AI Models
+
+This course focuses on GAI and NLP.  We'll see many versions of the models created for this type of AI.  The next section will examine how Neural Networks are used to create models. Models are computer programs that process data and find patterns.  These patterns enable the program to make predictions.  GAI models combined with NLM models provide all of the elements described above for turning information into knowledge: data -> collation -> communication. &#x20;
 
 ```mermaid
 flowchart TB
