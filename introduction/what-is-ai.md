@@ -28,7 +28,7 @@ Artificial Intelligence is a term that covers many disciplines. Every form of AI
 
 
 
-<figure><img src="../.gitbook/assets/ds-heirarchy (1).png" alt="" width="563"><figcaption><p>Heirarchy of disciplines leading to Gen AI and LLM</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/data-science-nn-genai (1).png" alt=""><figcaption><p>Heirarchy of disciplines leading to LLM and Generative AI</p></figcaption></figure>
 
 While we'll be focusing on creating prompts for artificial intelligence that uses Generative AI and Natural Language Processing, it helps to see how these disciplines fit under the broader field of Data Science.
 
@@ -52,17 +52,19 @@ DL is a method of enabling computer learning based a multiple levels of data pro
 
 NN is an ML process in AI that teaches computers to process data similarly to how humans process data at a neurological level.
 
+#### Large Language Models (LLM)
+
+LLMs are programs that enable machines to interpret and manipulate human language.  LLMs are the models that allow Generative AI to parse language input and generate text output.
+
 #### Generative AI (GAI)
 
-GAI is a type of AI that can generate content in the form of text, images, code, poetry, music, etc, in response to a prompt describing the content.  It uses NLP to process input and output.
+GAI is a type of AI that can generate content in the form of text, images, code, poetry, music, etc, in response to a prompt describing the content.  It uses LLMs to process text input and text output.
 
-#### Natural Language Processing (NLP)
+####
 
-NLM is an AI that enables machines to interpret and manipulate human language.
+### Models
 
-### Generative AI Models
-
-This course focuses on GAI and NLP.  We'll see many versions of the models created for this type of AI.  The next section will examine how Neural Networks are used to create models. Models are computer programs that process data and find patterns.  These patterns enable the program to make predictions.  GAI models combined with NLM models provide all of the elements described in the **Information vs Knowledge** section above: data -> collation -> communication. &#x20;
+This course focuses on GAI and LLMs.  We'll see many versions of the models created for this type of AI.  The next section will examine how Neural Networks are used to create models. Models are computer programs that process data and find patterns.  These patterns enable the program to make predictions.  GAI models combined with NLM models provide all of the elements described in the **Information vs Knowledge** section above: data -> collation -> communication. &#x20;
 
 ```mermaid
 mindmap
@@ -71,6 +73,6 @@ mindmap
       Machine Learning
         Deep Learning
           Neural Networks
+            Large Language Models
             Generative AI
-            Natural Language Processing
 ```
