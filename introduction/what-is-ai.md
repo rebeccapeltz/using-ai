@@ -58,21 +58,11 @@ LLMs are programs that enable machines to interpret and manipulate human languag
 
 #### Generative AI (GAI)
 
-GAI is a type of AI that can generate content in the form of text, images, code, poetry, music, etc, in response to a prompt describing the content.  It uses LLMs to process text input and text output.
+GAI is a type of AI that can generate content in the form of text, images, code, poetry, music, etc, in response to a prompt describing the content.  It uses LLMs to process text input and output.
 
 ####
 
 ### Models
 
-This course focuses on GAI and LLMs.  We'll see many versions of the models created for this type of AI.  The next section will examine how Neural Networks are used to create models. Models are computer programs that process data and find patterns.  These patterns enable the program to make predictions.  GAI models combined with NLM models provide all of the elements described in the **Information vs Knowledge** section above: data -> collation -> communication. &#x20;
+This course focuses on GAI and LLMs.  We'll use a variety of models created for GAI.  The following section will examine how Neural Networks are used to build GAI models. Models are computer programs that process data and find patterns.  These patterns enable the program to make predictions.  GAI models combined with NLM models provide all of the elements described in the **Information vs Knowledge** section above: data -> collation and pattern recognition -> communication. &#x20;
 
-```mermaid
-mindmap
-  root((Data Science))
-    Artificial Intelligence
-      Machine Learning
-        Deep Learning
-          Neural Networks
-            Large Language Models
-            Generative AI
-```
