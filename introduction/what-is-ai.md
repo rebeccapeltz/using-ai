@@ -39,8 +39,8 @@ mindmap
       Machine Learning
         Deep Learning
           Neural Networks
-            Large Language Models
             Generative AI
+            Large Language Models  
 
 ```
 
