@@ -1,4 +1,10 @@
+---
+description: Describe prompt engineering and learn how to create effective prompts.
+---
+
 # Prompt Engineering
+
+<figure><img src="../.gitbook/assets/question-mark-7211815_1280.jpg" alt="" width="563"><figcaption><p>Prompt Engineering</p></figcaption></figure>
 
 Prompt Engineering is a process that optimizes inputs to GAI to maximize the output. Prompt Engineering requires a good understanding of what you want to achieve in conversion with the model.  It would be best to understand what the model you're working with can provide you.  You wouldn't ask Gemini to create an image because it doesn't work with that media.  &#x20;
 

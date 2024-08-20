@@ -1,3 +1,9 @@
+---
+description: >-
+  Work through an exercise that enables sharing prompts and output from
+  Generative AI.
+---
+
 # Using Edublogs to Share Work
 
 <figure><img src="../.gitbook/assets/edublogs-main (1).png" alt=""><figcaption><p>should have an image of an illustrated chicken. If you hover over the image, there is a download button. Click on it to download the image. Make note of the name of the image youSignup for a free blog account</p></figcaption></figure>

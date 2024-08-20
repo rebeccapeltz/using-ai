@@ -1,4 +1,5 @@
 ---
+description: Describe the course and its objectives that uses this ebook.
 cover: .gitbook/assets/ai-generated-8540920_1280.jpg
 coverY: 0
 ---

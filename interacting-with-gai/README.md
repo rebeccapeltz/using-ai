@@ -1,4 +1,10 @@
+---
+description: Introduce Generative AI prompting by comparing it with Googling.
+---
+
 # Interacting with GAI
+
+<figure><img src="../.gitbook/assets/woman-5899198_1280.jpg" alt="" width="563"><figcaption><p>Interacting with Artificial Intelligence</p></figcaption></figure>
 
 ### From Search Engine to AI Overview
 

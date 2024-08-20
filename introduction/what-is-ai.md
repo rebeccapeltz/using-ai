@@ -1,6 +1,12 @@
+---
+description: >-
+  Introduction to Generative AI and Large Language Models and how they fit into
+  the overarching field of Data Science.
+---
+
 # What is AI?
 
-
+<figure><img src="../.gitbook/assets/artificial-intelligence-3706562_1280.jpg" alt=""><figcaption><p>Machine Learning</p></figcaption></figure>
 
 Before diving into the mechanics of Artificial Intelligence, think about what intelligence means.  What is the value of intelligence? Is it an end in itself?
 
