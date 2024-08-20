@@ -30,6 +30,20 @@ Artificial Intelligence is a term that covers many disciplines. Every form of AI
 
 <figure><img src="../.gitbook/assets/data-science-nn-genai (1).png" alt=""><figcaption><p>Heirarchy of disciplines leading to LLM and Generative AI</p></figcaption></figure>
 
+The top-to-bottom relationships between Data Science and Generative AI are shown in the chart below.
+
+```mermaid
+mindmap
+  root((Data Science))
+    Artificial Intelligence
+      Machine Learning
+        Deep Learning
+          Neural Networks
+            Large Language Models
+            Generative AI
+
+```
+
 While we'll be focusing on creating prompts for artificial intelligence that uses Generative AI and Natural Language Processing, it helps to see how these disciplines fit under the broader field of Data Science.
 
 #### Data Science
