@@ -6,7 +6,7 @@ Chances are you've used a search engine like Google.  You're interested in infor
 
 &#x20;Multiple audiences want to understand how LLMs are built and used to create GAI. Many are interested in implementing the code to write an LLM. In this course, we are ultimately interested in interacting with Generative AI, not how to code it.  However, the more we understand how GAI is created, the better we'll appreciate what makes a good prompt.
 
-Let's let Google Gemini describe how LLM's are built and used in GAI.  We'll ask it this question:
+Let's let Google Gemini describe how LLMs are built and used in GAI.  We'll ask it this question:
 
 > How would you describe creating generative AI using LLms for non-programmers?
 
@@ -26,8 +26,27 @@ Now, let's see how Gemini responded:
 
 
 
-Gemini starts with a metaphor, reminding us how we teach children to write stories: We read them "countless books." After they've read a lot of books, they start to see patterns, which they can then use to write their own books.  Then we find out that LLMs are like "super-smart" children who can read lots of "books" . This means they read lot of data which can include books, articles, and code.  They can then process this information in a way that allows them to share summaries using human language.&#x20;
+Gemini starts with a metaphor, reminding us how we teach children to write stories: We read them "countless books." After they've read many books, they start to see patterns, which they can then use to write their books.  Then we find out that LLMs are like "super-smart" children who can read many "books". This means they read a lot of data, including books, articles, and code.  They can then process this information in a way that allows them to share summaries using human language.&#x20;
 
-### Neural Networks
+### Artificial Neural Networks (ANNs)
 
-Even though we won't be coding an LLM, we can look at the data flow through a neural network.  LLMs use neural networks to process data
+Even though we won't be coding an LLM, we can look at the data flow through a neural network.  LLMs use AANs to process data.  The image below shows a human neural network.  Notice that the round element is a neuron, and the "stringy" elements attached are synapses.  Neurons send electrical impulses to other neurons via synapses.  When a neuron fires an impulse, there's a good chance that the connected neurons will also fire impulses.
+
+<figure><img src="../.gitbook/assets/neural-network-8684318_1280.jpg" alt=""><figcaption><p>Human neural network</p></figcaption></figure>
+
+The image below shows an ANN.  Data is input starting with the **input layer** on the left.  Lines simulate synapses.  They move data to **nodes,** which stimulate neurons.  Data is processed at each node in the hidden layer using an **activation function**.  Notice that each neuron sends data to the next neuron in the hidden layer.  The activation function is a decision-making construct determining how much data should be forwarded. When the processed data gets to the **output layer,** it is compared to the input, and if it doesn't match, backpropagation is sent in the opposite direction for reprocessing.  This forward and backward processing may be repeated many times until the error calculation shows that "what goes in is what comes out".
+
+<figure><img src="../.gitbook/assets/ann.png" alt="" width="563"><figcaption><p>Artificial Neural network</p></figcaption></figure>
+
+These layers are what inspire the name **Deep Learning**. This procedure for processing data is called **training**, and the output is a trained model that can be prompted to share what it has learned.
+
+### Models for Generating Text, Images, and Audio
+
+AI training follows the flow described above, but different processes are required to generate text, images, video, and audio.  The input data, internal data representation, and output are very different from other types of GAI.   How data is represented for each media representation in the inner layer will change how the data is processed.
+
+* **Text:** data is sequential and contains numbers
+* **Image:**  data is spatial and includes arrays of pixels
+* **Video:**  data takes into account time and space and is made up of frames
+* **Audio:** like video, data takes into account time and is made up of waveforms
+
+The next section will examine how to interact with different models.
