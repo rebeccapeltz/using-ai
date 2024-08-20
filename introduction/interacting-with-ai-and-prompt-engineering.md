@@ -1,7 +1,5 @@
 # Interacting with AI and Prompt Engineering
 
-
-
 ### From Search Engine to AI Overview
 
 Interacting with AI using web applications is similar to Googling.  Google allows you to type your search prompt into the address bar.  It returns a list of links you can click to find more information related to your search prompt.  In 2024, Google started adding AI overviews to the search results.   If you type a search prompt in Safari or Firefox, a Google search will be run, and the results will look the same as they do in Google.
@@ -32,7 +30,7 @@ In the past few years, the growth of AI has influenced the browser search experi
 
 There are many AI models available. We'll use free models. However, the free accounts they provide may have limits. Creating images, video, and audio tends to have stricter limits because they require more processing.  Most of the interactions in this course will focus on text because we seek help with problem-solving through dialog.&#x20;
 
-Click on the link for each, and you'll be prompted to log in to create a free account.&#x20;
+Click on each link, and you'll be prompted to log in to create a free account.&#x20;
 
 | Model                                             | Media Type   | Owner     |
 | ------------------------------------------------- | ------------ | --------- |
@@ -41,5 +39,7 @@ Click on the link for each, and you'll be prompted to log in to create a free ac
 | [Speechify Studio](https://studio.speechify.com/) | Audio, Video | Speechify |
 | [Claude.ai](https://claude.ai/)                   | Text         | Anthropic |
 
-Creating Prompts and Engaging in Dialog
+### Creating Prompts and Engaging in Dialog
+
+
 
