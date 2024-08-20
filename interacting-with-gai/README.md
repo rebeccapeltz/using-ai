@@ -1,4 +1,4 @@
-# Interacting with AI and Prompt Engineering
+# Interacting with GAI
 
 ### From Search Engine to AI Overview
 
@@ -28,18 +28,25 @@ In the past few years, the growth of AI has influenced the browser search experi
 
 ### AI Models
 
-There are many AI models available. We'll use free models. However, the free accounts they provide may have limits. Creating images, video, and audio tends to have stricter limits because they require more processing.  Most of the interactions in this course will focus on text because we seek help with problem-solving through dialog.&#x20;
+There are many AI models available. We'll use free models. However, the free accounts they provide may have limits. For example, ChatGPT has a two-image per day limit. Creating images, video, and audio tends to have stricter limits because they require more processing.  Most of the interactions in this course will focus on text because we seek help with problem-solving through dialog.&#x20;
 
 Click on each link, and you'll be prompted to log in to create a free account.&#x20;
 
 | Model                                             | Media Type   | Owner     |
 | ------------------------------------------------- | ------------ | --------- |
 | [Gemini](https://gemini.google.com/)              | Text         | Google    |
-| [ChatGPT](https://chatgpt.com/)                   | Text, Images | Microsoft |
-| [Speechify Studio](https://studio.speechify.com/) | Audio, Video | Speechify |
+| [ChatGPT](https://chatgpt.com/)                   | Text, Images | Open AI   |
 | [Claude.ai](https://claude.ai/)                   | Text         | Anthropic |
+| [Speechify Studio](https://studio.speechify.com/) | Audio, Video | Speechify |
+| [Grammarly](https://www.grammarly.com/)           | Text Editing | Grammarly |
 
-### Creating Prompts and Engaging in Dialog
+
+
+
+
+
+
+
 
 
 
