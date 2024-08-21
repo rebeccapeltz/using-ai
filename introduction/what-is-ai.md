@@ -76,13 +76,13 @@ NN is an ML process in AI that teaches computers to process data similarly to ho
 
 LLMs are programs that enable machines to interpret and manipulate human language.  LLMs are the models that allow Generative AI to parse language input and generate text output.
 
-#### Generative AI (GAI)
+#### Generative AI (GenAI)
 
-GAI is a type of AI that can generate content in the form of text, images, code, poetry, music, etc, in response to a prompt describing the content.  It uses LLMs to process text input and output.
+GenAI is a type of AI that can generate content in the form of text, images, code, poetry, music, etc, in response to a prompt describing the content.  It uses LLMs to process text input and output.
 
 ####
 
 ### Models
 
-This course focuses on GAI and LLMs.  We'll use a variety of models created for GAI.  The following section will examine how Neural Networks are used to build GAI models. Models are computer programs that process data and find patterns.  These patterns enable the program to make predictions.  GAI models combined with NLM models provide all of the elements described in the **Information vs Knowledge** section above: data -> collation and pattern recognition -> communication. &#x20;
+This course focuses on GenAI and LLMs.  We'll use a variety of models created for GenAI.  The following section will examine how Neural Networks are used to build GenAI models. Models are computer programs that process data and find patterns.  These patterns enable the program to make predictions.  GenAI models combined with NLM models provide all of the elements described in the **Information vs Knowledge** section above: data -> collation and pattern recognition -> communication. &#x20;
 
