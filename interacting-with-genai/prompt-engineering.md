@@ -95,9 +95,9 @@ When you craft your input, you can cast the AI in a role such as **expert**, **p
 
 GAI is excellent for brainstorming ideas.  When you're trying to develop ideas for a project you're working on, rather than presenting a detailed prompt, you can create prompts similar to questions you might ask in a brainstorming session.
 
-#### Example
+#### Sample Interaction with ChatGPT
 
-Consider a situation in which you work in marketing for a cybersecurity company. The company has created a product that will help elderly people avoid being hacked by phishing (clicking on links that trigger malware).&#x20;
+Consider a situation in which you work in marketing for a cybersecurity company. The company has created a product to help elderly people avoid being hacked by phishing (clicking on links that trigger malware).&#x20;
 
 Here's the prompt given to ChatGPT:
 

@@ -2,7 +2,7 @@
 description: Introduce Generative AI prompting by comparing it with Googling.
 ---
 
-# Interacting with GAI
+# Interacting with GenAI
 
 <figure><img src="../.gitbook/assets/woman-5899198_1280.jpg" alt="" width="563"><figcaption><p>Interacting with Artificial Intelligence</p></figcaption></figure>
 
@@ -38,13 +38,13 @@ There are many AI models available. We'll use free models. However, the free acc
 
 Click on each link, and you'll be prompted to log in to create a free account.&#x20;
 
-| Model                                             | Media Type   | Owner     |
-| ------------------------------------------------- | ------------ | --------- |
-| [Gemini](https://gemini.google.com/)              | Text         | Google    |
-| [ChatGPT](https://chatgpt.com/)                   | Text, Images | Open AI   |
-| [Claude.ai](https://claude.ai/)                   | Text         | Anthropic |
-| [Speechify Studio](https://studio.speechify.com/) | Audio, Video | Speechify |
-| [Grammarly](https://www.grammarly.com/)           | Text Editing | Grammarly |
+| Model                                   | Media Type   | Owner     |
+| --------------------------------------- | ------------ | --------- |
+| [Gemini](https://gemini.google.com/)    | Text         | Google    |
+| [ChatGPT](https://chatgpt.com/)         | Text, Images | Open AI   |
+| [Claude.ai](https://claude.ai/)         | Text         | Anthropic |
+| [Udio](https://www.udio.com/)           | Audio        | Udio      |
+| [Grammarly](https://www.grammarly.com/) | Text Editing | Grammarly |
 
 
 
