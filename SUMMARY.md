@@ -10,5 +10,5 @@
 * [Using GenAI to Solve Problems](using-ai-to-solve-problems-at-home.md)
   * [Home](using-genai-to-solve-problems/home.md)
   * [Work](using-genai-to-solve-problems/work.md)
-* [Sharing Your Work](sharing-your-work/README.md)
-  * [Acknowledging Content Source](sharing-your-work/acknowledging-content-source.md)
+* [Share Your Work](share-your-work/README.md)
+  * [Acknowledging Content Source](share-your-work/acknowledging-content-source.md)
