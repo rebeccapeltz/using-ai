@@ -7,7 +7,7 @@
   * [Model Interfaces](interacting-with-genai/model-interfaces.md)
   * [Prompt Engineering](interacting-with-genai/prompt-engineering.md)
   * [Using Edublogs to Share Work](interacting-with-genai/using-edublogs-to-share-work.md)
-* [Using GenAI to Solve Problems](using-genai-to-solve-problems/README.md)
+* [Using GenAI to Solve Problems](using-ai-to-solve-problems-at-home.md)
   * [Home](using-genai-to-solve-problems/home.md)
   * [Work](using-genai-to-solve-problems/work.md)
 * [Sharing Your Work](sharing-your-work/README.md)
