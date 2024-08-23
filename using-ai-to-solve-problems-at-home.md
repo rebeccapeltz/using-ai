@@ -35,5 +35,13 @@ There is no formula for solving all problems, but a set of steps will help you r
 9. If the solution works, you're done. Otherwise, try another solution.
 10. Once you are successful, take notes to learn from the process if the problem arises again.
 
+As you're creating prompts, remember these directives:
+
+* **Be specific:** Provide clear instructions and avoid ambiguity
+* **Provide context:** Give the model the necessary background information
+* **Use examples:** Show the model your desired output formats
+* **Incorporate keywords:** Guide the model towards relevant information
+* **Experiment with different phrasing:** Try various approaches
+
 With these steps in mind, let's work through some common problems experienced in daily life.
 
