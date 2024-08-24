@@ -74,39 +74,9 @@ In this dialog with Gemini, I ask them to translate my No Phish Tonight product 
 
 {% tabs %}
 {% tab title="Prompt" %}
-Can you translate this text to Spanish: No Phish Tonight - Product Overview
-
-No Phish Tonight is an innovative browser extension designed to protect users from phishing attacks. As phishing continues to be a prevalent threat in the digital landscape, this tool provides users with a robust solution to detect and report malicious links, particularly on web pages with open emails.
-
-Product Features
+Can you translate this text into Spanish:  \<product description produced in Problem 1>
 
 
-
-• \*\*Browser Extension\*\*: No Phish Tonight operates as a browser extension that can be run on any web page. It is especially effective when used on web pages containing open emails, where phishing attempts are most likely to occur.
-
-• \*\*Phishing Link Detection\*\*: The extension scans web pages for phishing links. If any are found, they are immediately flagged and reported to a central service for further investigation.
-
-• \*\*User Dashboard\*\*: Each user has access to a personalized dashboard. This dashboard provides detailed insights into the phishing attempts that have been detected and reported. Users can view summaries, statistics, and trends related to phishing attacks.
-
-
-
-Pricing Plans
-
-
-
-• \*\*Free Plan\*\*: The free plan allows users to conduct up to 1,000 phishing link searches per month. This option is ideal for casual users who want basic protection at no cost.
-
-• \*\*$5/month Plan\*\*: This plan provides users with up to 10,000 searches per month, catering to more active users who need enhanced protection and higher usage limits.
-
-• \*\*$15/month Plan\*\*: For users requiring unlimited searches, this plan offers comprehensive protection with no restrictions on the number of searches. It is best suited for heavy users or businesses looking for maximum security.
-
-
-
-Conclusion
-
-
-
-No Phish Tonight is poised to become an essential tool for anyone concerned about online security. With its intuitive interface, powerful detection capabilities, and flexible pricing plans, it offers a solution that can scale to meet the needs of both individual users and organizations. Whether it's for personal use or enterprise-level protection, No Phish Tonight provides the peace of mind that comes with knowing your digital environment is secure.
 {% endtab %}
 
 {% tab title="Gemini Response" %}
@@ -132,7 +102,7 @@ No Phish Tonight está preparado para convertirse en una herramienta esencial pa
 {% endtab %}
 {% endtabs %}
 
-### Problem 3: &#x20;
+### Problem 3:  Sales Script
 
 #### Problem Definition
 
@@ -140,7 +110,42 @@ No Phish Tonight está preparado para convertirse en una herramienta esencial pa
 
 #### Model: Claude.ai
 
-###
+{% tabs %}
+{% tab title="Prompt" %}
+I've created a description of a cybersecurity product I am working on. Can you create a sales script that could be used to describe this product and its features and pricing to a potential customer or investor? Here is the contents of the product description: \<product description produced in Problem 1>
+{% endtab %}
+
+{% tab title="Claude.ai Response" %}
+Here's a sales script for your No Phish Tonight product:
+
+"Hello, I'm \[Your Name] from No Phish Tonight. We've developed a cutting-edge browser extension that's revolutionizing online security. Let me ask you this: How confident are you that you can spot every phishing attempt in your emails?
+
+In today's digital world, phishing attacks are more sophisticated than ever. That's where No Phish Tonight comes in. Our browser extension is your personal cybersecurity guard, working tirelessly to keep you safe online.
+
+Here's how it works:
+
+1. Install our extension on your browser.
+2. As you browse, especially when viewing emails, No Phish Tonight scans for potential phishing links.
+3. If a threat is detected, it's immediately flagged and reported to our central service.
+4. You can track all this activity on your personalized dashboard, giving you insights into the threats you've avoided.
+
+We offer flexible pricing to suit different needs:
+
+* Our Free Plan gives you 1,000 searches per month at no cost.
+* For just $5 a month, you get 10,000 searches, perfect for more active users.
+* And for unlimited protection, our $15 monthly plan has you covered with no search limits.
+
+Imagine browsing with complete peace of mind, knowing you're protected from phishing attempts. That's what No Phish Tonight offers.
+
+Would you like to start with our Free Plan to see how it works for you? Or, given your online activity, perhaps one of our paid plans would be a better fit?
+
+What questions can I answer for you about No Phish Tonight?"
+
+Would you like me to modify or expand on any part of this script?
+{% endtab %}
+{% endtabs %}
+
+####
 
 ### List of Common Problems Encountered at Work
 
