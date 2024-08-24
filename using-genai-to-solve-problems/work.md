@@ -6,7 +6,7 @@ description: Create prompts to help solve problems encountered at work.
 
 <figure><img src="../.gitbook/assets/pexels-cottonbro-6804076.jpg" alt=""><figcaption><p>Using AI to Solve Problems at Work</p></figcaption></figure>
 
-### Problem 1:  Sales Script
+### Problem 1:  Product Description
 
 #### Problem Definition
 
@@ -106,7 +106,9 @@ No Phish Tonight está preparado para convertirse en una herramienta esencial pa
 
 #### Problem Definition
 
+In this dialog, I'm asking Claude.ai to create a Sales Script from the product description that I created in Problem 1.  So the output of Problem 1 is pasted into this prompt where it says _\<product description produced in Problem 1>_.
 
+At the end of Claude.ai's response, it asks, "Would you like me to modify or expand on any part of this script?"  I responded that it was good as it is now, but I could return if I find more that I want to add to it.
 
 #### Model: Claude.ai
 
