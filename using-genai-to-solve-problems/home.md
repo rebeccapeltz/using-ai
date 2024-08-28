@@ -6,7 +6,7 @@ description: Create prompts to help solve problems encountered in the home.
 
 <figure><img src="../.gitbook/assets/problem-5464444_1280.jpg" alt=""><figcaption><p>Solving Problems at Home</p></figcaption></figure>
 
-The bottom of this page lists common problems encountered at home. The topics range from kids' homework to carpentry. Look at the list and see if any issues strike a chord. We'll work through three items from the list.  After that, you can choose an item not covered here and use one of the LLMs (Gemini, ChatGPT, or Claude.ai) to find a solution.
+The [bottom of this page](home.md#list-common-problems-encountered-at-home) lists common problems encountered at home. The topics range from kids' homework to carpentry. Look at the list and see if any issues strike a chord. We'll work through three items from the list.  After that, you can choose an item not covered here and use one of the LLMs (Gemini, ChatGPT, or Claude.ai) to find a solution.
 
 We'll define each problem, specify related information, choose a model, and create an initial prompt. &#x20;
 
@@ -39,6 +39,10 @@ These colors should help your neighbor's house fit in beautifully with the neigh
 
 {% endtab %}
 {% endtabs %}
+
+
+
+***
 
 ### Problem 2:  Kid's Math Homework
 
@@ -86,6 +90,10 @@ The problem is: Simplify the expression 4x + 1 -2x - 5
 So, we group the terms with x together and the constant terms together. Then, we add or subtract them separately.
 {% endtab %}
 {% endtabs %}
+
+###
+
+***
 
 ### Problem 3: Pest Control
 

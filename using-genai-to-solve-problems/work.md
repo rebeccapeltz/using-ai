@@ -6,11 +6,29 @@ description: Create prompts to help solve problems encountered at work.
 
 <figure><img src="../.gitbook/assets/pexels-cottonbro-6804076.jpg" alt=""><figcaption><p>Using AI to Solve Problems at Work</p></figcaption></figure>
 
-### Problem 1:  Product Description
+The [bottom of this page](work.md#list-of-common-problems-encountered-at-work) lists common problems encountered at work. The topics range from writing a blog post to generating code and analyzing data.  Choose an item not covered here and use one of the LLMs (Gemini, ChatGPT, or Claude.ai) to find a solution.
+
+The problems addressed here are:
+
+* [Product to Market](work.md#problem-1-product-to-market)
+* [Research with Formatted Output](work.md#problem-2-research-with-formatted-output)
+* [Data in Tabular Format](work.md#problem-3-data-in-a-tabular-format)
+
+### Problem 1:  Product to Market
+
+Getting a product to market involves creating communication understandable by both the customer and the employees selling the product.  For this product, there are three phases:&#x20;
+
+* Define the product.
+* Translate the definition to any language that a potential customer or employee uses.
+* Create a Sales Script.
 
 #### Problem Definition
 
-If you work in sales or marketing, having a sales script to reference when calling on a potential customer is helpful.  The script can include product name, features, and pricing.  This example creates a prompt for a product sales script.
+If you work in sales or marketing, having a sales script to reference when calling a potential customer is helpful. The script can include the product name, features, and pricing. This example creates a product description, a product description translation into Spanish, and a sales script that explains the product's features and pricing.
+
+This problem is solved using three steps, each using a different model. One way to experiment with the differences in models is to use different models with the same prompt and then compare the output.
+
+#### Step 1: Create a Product Description
 
 The prompt describes that product and its pricing. ChatGPT then asked if I wanted help developing this product, so I asked it to create a document that describes it that I could share with investors.
 
@@ -62,13 +80,11 @@ No Phish Tonight is poised to become an essential tool for anyone concerned abou
 {% endtab %}
 {% endtabs %}
 
-### Problem 2:   Language Translation
-
-#### Problem Definition
+#### Step 2:   Language Translation
 
 We work with people from many different countries around the world. We often need to communicate with someone who speaks a different language.  Whether in person, on a Zoom call, talking face to face, traveling to a country that speaks a different language,  or creating product information for customers in another country, we may need to translate.  There are many translation options, and GenAI is only one of them.
 
-In this dialog with Gemini, I ask them to translate my No Phish Tonight product description from English to Spanish.  The prompt asks Gemini to translate the text shared into Spanish. It takes less than a second to get the translation.
+In this dialog with Gemini, I ask them to translate my **No Phish Tonight** product description from English to Spanish.  The prompt asks Gemini to translate the text shared into Spanish. It takes less than a second to get the translation.
 
 #### Model: Gemini
 
@@ -102,13 +118,11 @@ No Phish Tonight está preparado para convertirse en una herramienta esencial pa
 {% endtab %}
 {% endtabs %}
 
-### Problem 3:  Sales Script
+#### Step 3:  Sales Script
 
-#### Problem Definition
+In this dialog, I'm asking Claude.ai to create a Sales Script from the product description I made in Step 1.  So the output of Problem 1 is pasted into this prompt where it says _\<product description produced in Problem 1>_.
 
-In this dialog, I'm asking Claude.ai to create a Sales Script from the product description that I created in Problem 1.  So the output of Problem 1 is pasted into this prompt where it says _\<product description produced in Problem 1>_.
-
-At the end of Claude.ai's response, it asks, "Would you like me to modify or expand on any part of this script?"  I responded that it was good as it is now, but I could return if I find more that I want to add to it.
+At the end of Claude.ai's response, it asks, "Would you like me to modify or expand on any part of this script?"  I responded that it was good as it was now, but I could return if I found more that I wanted to add to it.
 
 #### Model: Claude.ai
 
@@ -147,7 +161,92 @@ Would you like me to modify or expand on any part of this script?
 {% endtab %}
 {% endtabs %}
 
-####
+
+
+***
+
+### Problem 2:  Research with Formatted Output
+
+Many professions require research to create a shared report, write a paper, or provide information for a customer. The report format is essential, and GenAI can generateOpenAI. (2024). _ChatGPT_ \[Large language model]. https://chatgpt.com/c/5b8eb438-9a68-4045-a1ba-59cfe1b9e0f6 a text report formatted according to the prompt's specifications.
+
+#### Problem Definition
+
+A higher education institution studies how to integrate or block the use of AI in courses.  Instructors have been tasked with creating reports that address the pros and cons of integrating AI.  A report format is required for submittal of the report.  The format must summarize an aspect of the problem, provide a bullet point list, and end with a paragraph giving direction.
+
+#### Model: ChatGPT
+
+{% tabs %}
+{% tab title="Prompt" %}
+Create a report that summarizes the role that AI can play in education. Start with a paragraph that discusses the sentiments expressed by educators and what some of the positive effects of AI can be in education. List a set of bullet points summarizing AI's benefits in education. Add a final paragraph providing direction for using AI in education.
+{% endtab %}
+
+{% tab title="ChatGPT Response" %}
+OpenAI. (2024). _ChatGPT_ \[Large language model]. https://chatgpt.com/c/5b8eb438-9a68-4045-a1ba-59cfe1b9e0f6
+
+#### The Role of AI in Education
+
+Educators have expressed a mix of sentiments regarding the integration of AI into education, ranging from enthusiasm to concern. On the positive side, many educators recognize the potential of AI to enhance learning experiences, streamline administrative tasks, and provide personalized support to students. AI's ability to analyze vast amounts of data allows for tailored learning paths that adapt to the needs of individual students, potentially leading to better engagement and outcomes. However, there are also concerns about the implications of AI, such as the risk of over-reliance on technology and the potential erosion of human elements in education. Nonetheless, when used thoughtfully, AI can be a powerful tool to complement and enhance traditional educational practices.
+
+#### Benefits of AI in Education
+
+* **Personalized Learning:** AI can adapt educational content to meet the needs of individual students, helping them learn at their own pace and according to their unique learning styles.
+* **Efficient Administrative Tasks:** AI can automate routine tasks such as grading, scheduling, and student record management, freeing up educators to focus on teaching and mentoring.
+* **Enhanced Learning Materials:** AI can help create interactive and engaging educational content, such as virtual labs, simulations, and augmented reality experiences, that enhance students' understanding of complex subjects.
+* **Early Identification of Learning Gaps:** By analyzing student performance data, AI can identify areas where students may be struggling and suggest targeted interventions before problems become more significant.
+* **24/7 Support:** AI-driven chatbots and virtual assistants can provide students with instant help and guidance, making educational support accessible at any time.
+* **Data-Driven Insights:** AI can generate insights from educational data, helping educators understand trends, predict outcomes, and make informed decisions to improve teaching strategies and student success.
+
+#### Direction for Using AI in Education
+
+To effectively integrate AI into education, it is crucial to strike a balance between technological innovation and the preservation of human elements in teaching. Educators and institutions should focus on using AI as a supportive tool that enhances, rather than replaces, the role of teachers. This involves ongoing training for educators to ensure they are equipped to use AI tools effectively and responsibly. Additionally, clear ethical guidelines and policies should be established to address concerns related to privacy, bias, and equity in AI applications. By carefully managing the integration of AI, educational institutions can leverage its benefits while maintaining a student-centered approach that fosters creativity, critical thinking, and personal growth.
+{% endtab %}
+{% endtabs %}
+
+***
+
+### Problem 3: Data in a Tabular Format
+
+Formatting data in a table helps analyze a problem.  Gemini is useful for creating tabular data output.  Responses that include data provide answers that often lead to more questions.  The nature of prompting in AI is an excellent setup for inviting the user to keep asking for more data to help understand a situation.
+
+#### Problem Definition
+
+The world has been experiencing a gradual earth warming since pre-industrial times, a phenomenon often called Climate Change. The warming of the earth manifests itself in many different ways. Some have questions about whether Climate Change is real. An excellent place to start analyzing this is to ask for data in a tabular format. &#x20;
+
+This format has two prompts because the data returned by the first prompt triggers a question fed into the second prompt.  The first prompt showed triple-digit temperatures for five states in 2024.  The second prompt ask for the highest temperatures for each of those states in 1960 to see if temperatures had risen over 84 years.
+
+#### Model: Gemini
+
+{% tabs %}
+{% tab title="Prompt" %}
+Create a table listing states in the United States that experienced the highest temperatures in 2024. The table should contain two columns: the first column should contain the state's name, and the second should contain the temperature in degrees Fahrenheit.&#x20;
+{% endtab %}
+
+{% tab title="Gemini Response" %}
+
+
+| State      | Highest Temperature (°F) |
+| ---------- | ------------------------ |
+| California | 120                      |
+| Arizona    | 120                      |
+| Nevada     | 118                      |
+| Texas      | 117                      |
+| New Mexico | 116                      |
+{% endtab %}
+
+{% tab title="Prompt #2" %}
+Could you create a table listing states in the United States that experienced the highest temperatures in 2024 and their highest temperature in 1960? The table should contain three columns: the first column should contain the state's name, the second should contain the temperature in 1960, and the third column should contain the temperature in 2024. All temperatures should be reported in degrees Fahrenheit.&#x20;
+{% endtab %}
+
+{% tab title="Gemini Response #2" %}
+
+
+<table><thead><tr><th width="190">State</th><th>Highest Temperature (1960)</th><th>Highest Temperature (2024)</th></tr></thead><tbody><tr><td>California</td><td>116</td><td>120</td></tr><tr><td>Arizona</td><td>115</td><td>122</td></tr><tr><td>Nevada</td><td>112</td><td>118</td></tr><tr><td>Texas</td><td>110</td><td>117</td></tr><tr><td>New Mexico</td><td>108</td><td>116</td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
+
+
+
+***
 
 ### List of Common Problems Encountered at Work
 
