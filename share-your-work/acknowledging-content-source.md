@@ -1,2 +1,0 @@
-# Acknowledging Content Source
-
